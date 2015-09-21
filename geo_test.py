@@ -27,5 +27,7 @@ def geocode(text):
 
 articles['AB_ISO'] = articles['AB'].apply(geocode)
 
-articles['AB_ISO'].head()
+print articles['AB_ISO'].head()
+
+
 
